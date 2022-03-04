@@ -1,0 +1,13 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="device_forever" id="`S~GhH/9jDRL=*zK$:x{" x="32" y="18"><statement name="HANDLER"><block type="device_show_leds" id=")DNs;E!PS]P33A`ys$B_"><field name="LEDS">`
+        . # . # . 
+        # . # . # 
+        # . . . # 
+        . # . # . 
+        . . # . .
+        `</field><next><block type="device_pause" id="_m,cF#(O.%XzRL2P7B2@"><value name="pause"><shadow type="timePicker" id="3^vGP3Fg=61f4FR%T^P*"><field name="ms">600</field></shadow></value><next><block type="device_show_leds" id="kbeKeS${%2sHSlr!3?y1"><field name="LEDS">`
+        . . . . . 
+        . # . # . 
+        . # # # . 
+        . . # . . 
+        . . . . .
+        `</field><next><block type="device_pause" id="at#gt:Xi{.@_s7upciQ2"><value name="pause"><shadow type="timePicker" id="qLIfNg4nGIoNfjq(bw-~"><field name="ms">600</field></shadow></value></block></next></block></next></block></next></block></statement></block><block type="device_pin_event" id="haLr~?DT-6Ak|e$]CIqT" x="354" y="206"><field name="name">TouchPin.P0</field><statement name="HANDLER"><block type="device_pause" id="6d)$_@pcQzO|(msM~S@}"><value name="pause"><shadow type="timePicker" id="H$~uwf:51C(!8PP=vl]k"><field name="ms">1000</field></shadow></value><next><block type="device_print_message" id="Duit(7xCbTu1m8/xJP0J"><value name="text"><shadow type="text"><field name="TEXT">Hello!</field></shadow><block type="device_random" id="Zo!5_[2JeAROt+BrT~1m"><value name="min"><shadow type="math_number" id="h}fH4O@OlP4%ZO8heR@$"><field name="NUM">0</field></shadow></value><value name="limit"><shadow type="math_number" id="^C2tJ.S;(JlMvFznU!Rd"><field name="NUM">100</field></shadow></value></block></value></block></next></block></statement></block><block type="device_pin_event" id="lMAw,[z!bCy|o7X0R*3~" x="355" y="428"><field name="name">TouchPin.P1</field><statement name="HANDLER"><block type="device_pause" id="(r9%rn*1CpQvv#2%_e5e"><value name="pause"><shadow type="timePicker" id="fg~$FhQ95+=FXM{ASApl"><field name="ms">1000</field></shadow></value><next><block type="device_print_message" id="Ty~R$-*2Lu2Dvip`aU9:"><value name="text"><shadow type="text"><field name="TEXT">Hello!</field></shadow><block type="logic_random" id="_@$LxU4_#Isa]jAq9[;T"/></value></block></next></block></statement></block></xml>
